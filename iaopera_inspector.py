@@ -7,7 +7,8 @@ from logging.handlers import RotatingFileHandler
 import math
 import copy
 
-
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import protocol
 
 host = "localhost"
