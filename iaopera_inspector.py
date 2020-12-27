@@ -240,7 +240,7 @@ class Player():
         if "power" in quest:
             if "grey" in quest and "move" not in quest:
                 roomnb = 0
-                maxroom = 0
+                maxroom = 10
                 newmax = 0
                 for i in range(0, 10):
                     newmax = 0
