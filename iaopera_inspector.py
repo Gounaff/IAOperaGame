@@ -243,7 +243,7 @@ class Player():
                 roomnb = 0
                 maxroom = 10
                 newmax = 0
-                for i in range(0, 10):
+                for i in data:
                     newmax = 0
                     for character in game_state['characters']:
                         if character['position'] == i:
